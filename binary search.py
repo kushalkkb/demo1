@@ -7,12 +7,7 @@
 # Created:     19-05-2023
 # Copyright:   (c) Mahesh 2023
 # Licence:     <your licence>
-#-------------------------------------------------------------------------------
-
-import time
-
-start = time.time()
-
+#-----------------------------------------------------------------------------
 def binary_search(arr, l, h, x):
     if h >= l:
         m = (h + l) // 2
@@ -34,6 +29,3 @@ if result != -1:
 else:
     print("Element is not present in array")
 
-end = time.time()
-
-print("Running time of the program is", end - start)
